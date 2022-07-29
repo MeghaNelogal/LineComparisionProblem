@@ -8,7 +8,8 @@
 
             LineComparision lineComparision = new LineComparision();
             lineComparision.checkLength();
-            lineComparision.checkEquality();           
+            lineComparision.checkEquality();
+            lineComparision.CompareLines();
         }
     }
        
