@@ -31,5 +31,25 @@ namespace LineComparisionProblem
                 Console.WriteLine("*** The given two straight lines are not Identical ***");
             }          
         }
+        public void CompareLines()
+        {
+
+            l1 = x2 - x1;
+            l2 = y2 - y1;
+            int n = l1.CompareTo(l2);
+            if (n > 0)
+            {
+                Console.WriteLine(" ***l1 is Greater Than l2*** ");
+            }
+            else if (n < 0)
+            {
+                Console.WriteLine(" ***l2 is Greater Than l1*** ");
+            }
+            else
+            {
+                Console.WriteLine(" ***l1 and l2 are Equal*** ");
+            }
+        }
     }
 }
+   
