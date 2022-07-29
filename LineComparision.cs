@@ -24,13 +24,12 @@ namespace LineComparisionProblem
             l2 = y2 - y1;
             if (l1.Equals(l2))
             {
-                Console.WriteLine("The given two straight lines are identical -> ");
+                Console.WriteLine("*** The given two straight lines are Identical ***");
             }
             else
             {
-                Console.WriteLine("The given two straight lines are not identical -> ");
-            }       
-       
+                Console.WriteLine("*** The given two straight lines are not Identical ***");
+            }          
         }
     }
 }
